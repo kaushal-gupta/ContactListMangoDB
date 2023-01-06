@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: indigo;
+}
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: gray
+}
+ul{
+    text-align: center;
+    width: 50%;
+    list-style: none;
+}
+p{
+    color: aliceblue;
+}
+li{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* background-color: ; */
+    border-bottom: 5px solid grey;
+}
+
+li:hover{
+    background-color: brown;
+}
+#delete-button{
+    color: rgb(243, 97, 97);
+}

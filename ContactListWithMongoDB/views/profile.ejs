@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>
+            <%= title%>
+        </title>
+        
+    </head>
+    <body>
+        <p>
+            <%= para %>
+        </p>
+
+      <ul>
+        <% for(let i=0;i<6;i++){%>
+            <li>
+                <%= i %>
+            </li>
+            <%}%>
+            
+      </ul>
+
+      <%if(true){%>
+        <h1> I am true</h1>
+      <% }else{ %> 
+        <h1> I am</h1>
+      <% } %> 
+
+    </body>
+</html>
